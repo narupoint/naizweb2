@@ -1,0 +1,97 @@
+/* font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&display=swap');
+
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    backdrop-filter: blur(49px);
+    box-shadow: 0 0 48px rgba(0, 0, 0, 0.212);
+    background-color: rgba(255, 255, 255, 0.253);
+}
+
+.hero img {
+    width: 460px;
+    float: right;
+    margin-top: -240px;
+}
+
+.hero span {
+    color: #0066FF;
+}
+
+.hero-btn {
+    text-decoration: none;
+    color: white;
+    background-color: #0066FF;
+    padding: 7px 24px;
+    border-radius:14px;
+}
+
+.cart {
+    margin-right: 6px;
+}
+
+.hero-btn:hover {
+    color: white;
+    box-shadow: 0 0 20px #0066ff9a;
+}
+
+.social {
+    margin-left: 9px;
+    margin-top: 19px;
+    display: flex;
+    transition: .2s linear;
+    font-size: 14px;
+}
+
+.wa {
+    margin-left: 10px;
+    transition: .2s linear;
+}
+
+.waa {
+    transition: .2s linear;
+}
+
+.wa:hover {
+    transition: .2s linear;
+    transform: scale(1.6);
+    color: #0066FF;
+}
+.waa:hover {
+    transition: .2s linear;
+    transform: scale(1.6);
+    color: #0066FF;
+}
+
+/* moblie */
+@media screen and (max-width: 576px) {
+    .hero img {
+        float: none;
+        width: 400px;
+        margin-left: -19px;
+    }
+
+    .hero-h1 {
+        margin-top: 990px;
+    }
+}
+
+
+
+/* tablet */
+@media screen and (max-width: 824px) {
+    .hero img {
+        float: none;
+        width: 390px;
+        margin-top: 14px;
+    }
+
+    .hero-h1 {
+        margin-top: -90px;
+    }
+}
